@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive Image & Video Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Google Drive Media Gallery</h1>
+        
+        <button id="login">Sign in with Google</button>
+        <button id="logout" style="display:none;">Logout</button>
+
+        <input type="file" id="uploadFile" multiple>
+        <button id="uploadBtn">Upload to Drive</button>
+
+        <h2>Your Images & Videos</h2>
+        <div id="mediaGallery"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
